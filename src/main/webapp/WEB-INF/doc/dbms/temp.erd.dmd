@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="temp.erd" id="24163D63-4508-9A79-DD24-338DA15ACC98" version="3.5">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 01:12:49 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>24163D63-4508-9A79-DD24-338DA15ACC98</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C414B80A-4EDA-DC6A-4E2B-B3851AF94CCF">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4EA766E9-B39A-EB9D-5C1E-73F6568D3D40" schemaObject="ED438EF0-AC4B-DD9A-630D-6AB314706FC5" name="EMPLOYEE">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>EMPLOYEE</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:19 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPNO" id="9D4E9520-757A-7348-1E3F-7FFA6545B174">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="825D3DF6-36EA-9649-5377-A377B875DDC4">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO" id="C66031A8-4AED-9C61-7D0A-22735249E842">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="289AFFE3-A437-F93C-E9FC-683BB395584E" referredColumn="DC7BAA34-8802-DE90-8B72-CD612777E7D9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82F45896-2B50-3C71-DB98-0468E67E91CA" schemaObject="ED438EF0-AC4B-DD9A-630D-6AB314706FC5" name="EMPLOYEE_PK">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>SYS_C007444</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D4E9520-757A-7348-1E3F-7FFA6545B174"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79C49ECC-A45C-392F-5FB2-9F54BF32D459" name="EMPLOYEE_DEPARTMENT_FK">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C66031A8-4AED-9C61-7D0A-22735249E842"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

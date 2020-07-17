@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92ACD235-8793-246F-2745-897359F129C8" schemaObject="ED438EF0-AC4B-DD9A-630D-6AB314706FC5" name="ATTACHFILE">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>ATTACHFILE</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[첨부파일]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<importedID>D600BDC5-4C76-FF73-D926-4C9974E5441F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ATTACHFILENO" id="60B5AF56-AB79-59F6-142E-970AC128F5F7">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>ATTACHFILE</sourceObjSchema>
+<sourceObjName>ATTACHFILENO</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[첨부파일번호]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<importedID>492943C7-A88A-EE90-96B5-8A3F12ABBDE9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENTSNO" id="8F960ABF-AB26-2EEB-D184-921B490648AD">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>ATTACHFILE</sourceObjSchema>
+<sourceObjName>CONTENTSNO</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[컨텐츠번호]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<importedID>15F73FD0-220B-160A-D4D8-238E656D03D4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A48851A-F3C6-EB16-CC27-E4E9BD9CD76B" referredColumn="F84FEA7C-5279-64C9-A189-7198F6A7F7A1"/>
+</associations>
+</Column>
+<Column name="FNAME" id="10329C4E-B2D3-BC10-1986-2C6D1B73EBBF">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>ATTACHFILE</sourceObjSchema>
+<sourceObjName>FNAME</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[원본 파일명]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<importedID>93698AF5-2812-5F54-87B9-919F5B757901</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUPNAME" id="D0EC278B-EC97-F0C7-AC18-5A0FC235CF06">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>ATTACHFILE</sourceObjSchema>
+<sourceObjName>FUPNAME</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[업로드 파일명]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<importedID>6F686C94-B28B-950F-2204-D5446D3B0238</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="THUMB" id="D46CF8D0-92E9-03DD-DE20-5C3658046E47">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>ATTACHFILE</sourceObjSchema>
+<sourceObjName>THUMB</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Thumb 파일명]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<importedID>F57C7E30-B685-1A29-2891-4E0EC07BF817</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FSIZE" id="5379C2F5-E619-E448-92DE-63CBA66AAD35">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>ATTACHFILE</sourceObjSchema>
+<sourceObjName>FSIZE</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[파일 사이즈]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<importedID>BB9AB0A2-5687-E42A-FF75-8624E369D393</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RDATE" id="1685C363-3721-379F-66BC-3DF5392DCDEA">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>ATTACHFILE</sourceObjSchema>
+<sourceObjName>RDATE</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록일]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<importedID>357BB4AC-D23F-EDB0-1C30-FFA4F1404DEB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0F742A0-CA85-5335-347E-59C24AE09F4F" schemaObject="ED438EF0-AC4B-DD9A-630D-6AB314706FC5" name="ATTACHFILE_PK">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>SYS_C007469</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<importedID>6088670E-155D-9B33-FA24-85895656D8E8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60B5AF56-AB79-59F6-142E-970AC128F5F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="098A7C5F-B0B5-E3D7-54DE-ED1EECCFD8E7" name="SYS_C007470">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F960ABF-AB26-2EEB-D184-921B490648AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

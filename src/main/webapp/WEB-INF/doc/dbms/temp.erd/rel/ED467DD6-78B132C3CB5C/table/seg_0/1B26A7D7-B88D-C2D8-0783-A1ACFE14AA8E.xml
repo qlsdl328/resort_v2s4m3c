@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B26A7D7-B88D-C2D8-0783-A1ACFE14AA8E" schemaObject="ED438EF0-AC4B-DD9A-630D-6AB314706FC5" name="SALES">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>SALES</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:19 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SALESNO" id="61ED1281-D9A9-1412-B481-1A1185A1E6FF">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>SALESNO</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT" id="59FC7631-ABE2-6764-0969-096036246865">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="F2C708FB-FEA5-0CAA-6BF3-E9CF38E2824D">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>PRICE</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNT" id="5998DF4A-1DE9-8690-2EEA-D08B206D9165">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>CNT</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DC" id="8FB3337D-A892-F10A-641E-2CD31A112189">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>DC</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RDATE" id="C8E282B5-4222-C252-A609-67D361B2EA90">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>RDATE</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23C0C86E-CF33-81BD-4935-E5FC55BC9C94" schemaObject="ED438EF0-AC4B-DD9A-630D-6AB314706FC5" name="SALES_PK">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>SYS_C007131</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61ED1281-D9A9-1412-B481-1A1185A1E6FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28F07718-5CAC-81C4-75DE-5B5E64D6F604" schemaObject="ED438EF0-AC4B-DD9A-630D-6AB314706FC5" name="CATE">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>CATE</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[카테고리]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CATENO" id="0A3C90D9-B3DF-C42C-98C1-AF54C2AA6F78">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>CATE</sourceObjSchema>
+<sourceObjName>CATENO</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[카테고리 번호]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGRPNO" id="8FB28A41-3166-2EEB-2D6E-7DD7860123DC">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>CATE</sourceObjSchema>
+<sourceObjName>CATEGRPNO</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[카테고리 그룹 번호]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64B4ED70-90DD-D739-4119-7E4CCD426327" referredColumn="8CB891EF-67C9-D1B0-C20B-828400DB5C0C"/>
+</associations>
+</Column>
+<Column name="NAME" id="08CCC4B2-2E19-89FC-6F10-9D84DDDE8C5A">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>CATE</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[카테고리 이름]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQNO" id="752CFB26-3926-2392-28D4-024D5069B34C">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>CATE</sourceObjSchema>
+<sourceObjName>SEQNO</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[출력 순서]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISIBLE" id="F4A3CEE0-F26F-4870-03E2-EAC9B715581B">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>CATE</sourceObjSchema>
+<sourceObjName>VISIBLE</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[출력 모드]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;Y&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RDATE" id="058CDEA2-66BC-302E-AE04-DF3DB023F624">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>CATE</sourceObjSchema>
+<sourceObjName>RDATE</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록일]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNT" id="1334BAE0-A3E4-6A19-7D02-6CDB61ED80F0">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>CATE</sourceObjSchema>
+<sourceObjName>CNT</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록된 글 수]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F863D01-DA8D-4DCC-EFFB-C1CBA72AE8D3" schemaObject="ED438EF0-AC4B-DD9A-630D-6AB314706FC5" name="CATE_PK">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>SYS_C007419</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A3C90D9-B3DF-C42C-98C1-AF54C2AA6F78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C82B951-3F9D-145A-F8B5-706F74DB246E" name="SYS_C007420">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FB28A41-3166-2EEB-2D6E-7DD7860123DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

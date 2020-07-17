@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18AA71B8-24BA-6037-188A-F1B57EA4541D" schemaObject="ED438EF0-AC4B-DD9A-630D-6AB314706FC5" name="MEMBER">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>MEMBER</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[회원]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEMBERNO" id="7B497619-8E52-02FB-BF06-E266CA23B53D">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>MEMBERNO</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[회원 번호]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="750E1943-921A-7DC9-76A7-206DA6E7C1D6" schemaObject="ED438EF0-AC4B-DD9A-630D-6AB314706FC5" name="MEMBER_PK">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>SYS_C007328</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B497619-8E52-02FB-BF06-E266CA23B53D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

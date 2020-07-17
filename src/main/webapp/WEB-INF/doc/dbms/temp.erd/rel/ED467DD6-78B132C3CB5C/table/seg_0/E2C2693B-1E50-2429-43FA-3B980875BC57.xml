@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2C2693B-1E50-2429-43FA-3B980875BC57" schemaObject="ED438EF0-AC4B-DD9A-630D-6AB314706FC5" name="CATEGRP">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>CATEGRP</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[카테고리 그룹]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CATEGRPNO" id="8CB891EF-67C9-D1B0-C20B-828400DB5C0C">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>CATEGRP</sourceObjSchema>
+<sourceObjName>CATEGRPNO</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[카테고리 그룹 번호]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="6FBE4729-7C2C-635A-035C-560DA208455D">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>CATEGRP</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[이름]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQNO" id="F58798BB-ED65-9DAF-0ECD-7089F26680B8">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>CATEGRP</sourceObjSchema>
+<sourceObjName>SEQNO</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[출력 순서]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISIBLE" id="BE9B39CA-CDD9-710E-DD2A-572A4825DF8D">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>CATEGRP</sourceObjSchema>
+<sourceObjName>VISIBLE</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[출력 모드]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;Y&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RDATE" id="1E117E4D-5C19-A30F-3EE9-6472E184F592">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>CATEGRP</sourceObjSchema>
+<sourceObjName>RDATE</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[그룹 생성일]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE6A3E28-73A9-B4BD-3D3A-2B556B491B4A" schemaObject="ED438EF0-AC4B-DD9A-630D-6AB314706FC5" name="CATEGRP_PK">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>SYS_C007411</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CB891EF-67C9-D1B0-C20B-828400DB5C0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

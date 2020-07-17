@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="AI6" directorySegmentName="seg_0" id="ED438EF0-AC4B-DD9A-630D-6AB314706FC5">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:19 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<importedID>7C580F57-D5A4-EA16-12FC-7328608A67BF</importedID>
+</SchemaObject>

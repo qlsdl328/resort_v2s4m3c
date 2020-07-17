@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="AI6" directorySegmentName="seg_0" id="C896BFC2-6F6A-3969-C806-0CF25C85AE44">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjName>AI6</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:19 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<schemaObject>ED438EF0-AC4B-DD9A-630D-6AB314706FC5</schemaObject>
+<privileges>UNLIMITED TABLESPACE, CREATE VIEW</privileges>
+</UserOraclev10g>

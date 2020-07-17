@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7A48851A-F3C6-EB16-CC27-E4E9BD9CD76B" containerWithKeyObject="92ACD235-8793-246F-2745-897359F129C8" localFKIndex="098A7C5F-B0B5-E3D7-54DE-ED1EECCFD8E7" name="SYS_C007470">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>SYS_C007470</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<importedID>B19BE68A-7EF4-8399-3C0F-6C9FF4CEC0B8</importedID>
+<referredTableLongName>AI6.CONTENTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>710BA346-9E54-B9E5-112A-BE677F17F8F8</referredTableID>
+<keyObject>8E4FFFC0-FD74-3157-65B4-B1648B73F562</keyObject>
+<referredKeyID>8E4FFFC0-FD74-3157-65B4-B1648B73F562</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CONTENTSNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

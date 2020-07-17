@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<mapper namespace="dev.mvc.vis.VisDAOInter"> 
+  <!-- 출력 순서 오름차순 전체 목록 -->
+  <select id="read_top_code" resultType="VisVO" parameterType="String">
+    SELECT visno, code, title, data, rdate, r
+    FROM (
+        SELECT visno, code, title, data, rdate, rownum as r
+        FROM (
+            SELECT visno, code, title, data, rdate
+            FROM vis
+            WHERE code=#{code}
+            ORDER BY visno DESC
+        )
+    )
+    WHERE r = 1
+  </select>
+           
+</mapper>

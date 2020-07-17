@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B631911D-B7AF-E8EA-C74E-29DF2057557A" schemaObject="ED438EF0-AC4B-DD9A-630D-6AB314706FC5" name="POSITION">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>POSITION</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[직책]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POSITIONNO" id="0D87D9A6-69C7-A824-57E9-97B031E24F26">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>POSITION</sourceObjSchema>
+<sourceObjName>POSITIONNO</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[직책 번호]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="7339F148-1B95-010F-C37D-E1E77B30A4FD">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>POSITION</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[직책 이름]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE" id="D240F0FE-7EE4-C740-8401-6626BCBE33FC">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>POSITION</sourceObjSchema>
+<sourceObjName>EMPLOYEE</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[사원명]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFICER" id="742EE197-C19B-C63C-1C1E-51EE3B883CEB">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>POSITION</sourceObjSchema>
+<sourceObjName>OFFICER</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[상급 직책 사원명]]></commentInRDBMS>
+<ownerDesignName>temp.erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A4B211E-82E3-7D94-2B5D-C40D8DD4FDF2" referredColumn="0D87D9A6-69C7-A824-57E9-97B031E24F26"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="327F4B67-BBE6-E0FE-7604-C1E15015EC05" schemaObject="ED438EF0-AC4B-DD9A-630D-6AB314706FC5" name="POSITION_PK">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>SYS_C007431</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D87D9A6-69C7-A824-57E9-97B031E24F26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57D10345-A885-56F7-E635-C09FB5D39F32" name="SYS_C007432">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:34:20 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="742EE197-C19B-C63C-1C1E-51EE3B883CEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

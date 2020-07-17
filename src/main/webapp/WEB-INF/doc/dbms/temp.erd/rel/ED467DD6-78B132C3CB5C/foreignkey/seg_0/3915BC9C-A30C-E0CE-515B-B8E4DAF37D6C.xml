@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3915BC9C-A30C-E0CE-515B-B8E4DAF37D6C" containerWithKeyObject="710BA346-9E54-B9E5-112A-BE677F17F8F8" localFKIndex="2851FCBE-0C8F-98AC-9259-E029627AB1B0" name="SYS_C007463">
+<sourceConnName>ai6</sourceConnName>
+<sourceObjSchema>AI6</sourceObjSchema>
+<sourceObjName>SYS_C007463</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<importedID>80F1CCF3-AC4B-64D2-5A8E-F8830BAF3586</importedID>
+<referredTableLongName>AI6.CATE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28F07718-5CAC-81C4-75DE-5B5E64D6F604</referredTableID>
+<keyObject>3F863D01-DA8D-4DCC-EFFB-C1CBA72AE8D3</keyObject>
+<referredKeyID>3F863D01-DA8D-4DCC-EFFB-C1CBA72AE8D3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CATENO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

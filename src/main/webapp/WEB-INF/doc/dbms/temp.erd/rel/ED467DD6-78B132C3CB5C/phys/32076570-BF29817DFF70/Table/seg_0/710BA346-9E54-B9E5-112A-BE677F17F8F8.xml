@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CONTENTS" directorySegmentName="seg_0" id="710BA346-9E54-B9E5-112A-BE677F17F8F8">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<schemaObject>ED438EF0-AC4B-DD9A-630D-6AB314706FC5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1A8118C3-292C-8D5A-66C2-70F4A50142B8</segment>
+<tableSpace>4C4D49B7-92B7-A96F-3ADE-C693E49BB7E4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="WORD" id="07F23571-8BE7-81CB-2BFC-04A42DB61486">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="YOUTUBE" id="0F705849-1310-7513-F7C7-7B544ED3964C">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REPLYCNT" id="12A2C6FB-209C-89E9-B8CB-BCC5A63ED54A">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PASSWD" id="18B01A51-8965-18C2-28C7-957302C52F4F">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CNT" id="1D945495-6A60-31C6-A64C-3C1E04854624">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="RDATE" id="200F57EC-7DA4-B14E-060C-D463C74F8483">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MP4" id="2451A056-A259-41D8-0420-AF821A3BB84A">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RECOM" id="5023E271-ED6D-2366-1DB9-3BB26DB65FEB">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CATENO" id="568B639F-C86E-14A1-1CEC-A94776F720EE">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTENT" id="574D440B-7820-F6EF-8680-97CE4C51C7FB">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GRPNO" id="5EE92DB5-CA36-4297-10D4-2562958B95C0">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="VISIBLE" id="647A44A1-D12D-D415-CBDE-FBDE56B4FC4E">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<defaultValue>&apos;Y&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="MP3" id="7F46BE9E-34F2-5568-C834-AF041249FDC5">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ANSNUM" id="851A3134-3B49-C9C6-68B4-A45EF6E14283">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="MEMBERNO" id="8BA1E2B7-4AEB-8D34-A1D6-4C49187A4721">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEB" id="966EF4C2-BC08-4814-143B-E619EBDC4572">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IP" id="9A8B6278-AE41-1950-8210-2DD70E59C9D3">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INDENT" id="AF181167-B891-104B-297E-C7A7CDDA8665">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="TITLE" id="B36A74E4-A26B-97EC-7949-0C3DD1724B8F">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAP" id="E71AA701-4EE1-55CB-0340-37BA1307A582">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTENTSNO" id="F84FEA7C-5279-64C9-A189-7198F6A7F7A1">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007462" id="0E590214-937F-3F11-ACA6-0DCCA62733F2">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007463" id="2851FCBE-0C8F-98AC-9259-E029627AB1B0">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000021465C00005$$" id="9B16A3BD-24DA-768F-5040-7F3639A1814C">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>CONTENT</column>
+<logging>YES</logging>
+<tableSpace>4C4D49B7-92B7-A96F-3ADE-C693E49BB7E4</tableSpace>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONTENTS_PK" id="8E4FFFC0-FD74-3157-65B4-B1648B73F562">
+<createdBy>soldesk</createdBy>
+<createdTime>2020-05-13 02:37:39 UTC</createdTime>
+<ownerDesignName>temp.erd</ownerDesignName>
+<schemaObject>ED438EF0-AC4B-DD9A-630D-6AB314706FC5</schemaObject>
+<segment>DC4E64AE-EBE0-C2F0-5248-522A8BA8E6E4</segment>
+<tableSpace>4C4D49B7-92B7-A96F-3ADE-C693E49BB7E4</tableSpace>
+<indexSegment>DC4E64AE-EBE0-C2F0-5248-522A8BA8E6E4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
